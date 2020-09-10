@@ -1,0 +1,7 @@
+{
+  "name": "app-refesh",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
