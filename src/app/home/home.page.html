@@ -1,20 +1,29 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
+<!-- <ion-header [translucent]="true">
     <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
+        <ion-title>
+            Blank
+        </ion-title>
     </ion-toolbar>
-  </ion-header>
+</ion-header> -->
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+<ion-content [fullscreen]="true" padding class="fondonegro">
+    <!-- <ion-header collapse="condense">
+        <ion-toolbar>
+            <ion-title size="large">Blank</ion-title>
+        </ion-toolbar>
+    </ion-header> -->
+
+    <div id="container">
+        <div class="centrado">
+            <div class="logo">
+                <ion-img class="logosize" src="../../assets/logo_gio.png"></ion-img>
+
+            </div>
+        </div>
+        <div class="link">
+            <ion-button size="large" style="--background:#ee9408;--background-hover:#fca110" fill="solid" expand="block" (click)="abrirEnlace()">
+                <ion-icon slot="start" name="enter-outline"></ion-icon> INICIAR SESION
+            </ion-button>
+        </div>
+    </div>
 </ion-content>

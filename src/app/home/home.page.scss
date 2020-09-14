@@ -1,27 +1,54 @@
 #container {
-  text-align: center;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 35%;
+    transform: translateY(-50%);
+}
 
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+ion-content {
+    --ion-background-color: #000000;
+    .centrado {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .centrado .logo {
+        width: 350px;
+        height: 220px;
+        justify-content: center;
+        align-items: center;
+        padding: 30% 15% 0;
+    }
+    .link {
+        margin-top: 100px;
+    }
+    .link ion-button {
+        font-size: 15px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .logosize {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 #container strong {
-  font-size: 20px;
-  line-height: 26px;
+    font-size: 20px;
+    line-height: 26px;
 }
 
 #container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
+    font-size: 16px;
+    line-height: 22px;
+    color: #8c8c8c;
+    margin: 0;
 }
 
 #container a {
-  text-decoration: none;
+    text-decoration: none;
 }

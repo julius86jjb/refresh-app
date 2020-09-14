@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import { InAppBrowser } from '@ionic-native/in-app-browser/ngx';
+
+
 
 @Component({
   selector: 'app-home',
@@ -7,6 +10,10 @@ import { Component } from '@angular/core';
 })
 export class HomePage {
 
-  constructor() {}
+  constructor(public iab: InAppBrowser) {}
+
+  abrirEnlace() {
+    const browser = this.iab.create('https://escuela.powerexplosive.com/membership-area1593582164571', '_self', {location: 'no'});
+  }
 
 }

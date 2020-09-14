@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "800583647025",
+    "firebase_url": "https://powerexplosiverefresh-5503f.firebaseio.com",
+    "project_id": "powerexplosiverefresh-5503f",
+    "storage_bucket": "powerexplosiverefresh-5503f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:800583647025:android:19f11e0419675b88d33a10",
+        "android_client_info": {
+          "package_name": "com.powerexplosive.refresh"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "800583647025-6jvk68q77sgkpe7bididk9mbhmf61j6n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1qf4TjyGSRE5htZJzfGdxsylgEXdYS6E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "800583647025-6jvk68q77sgkpe7bididk9mbhmf61j6n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
